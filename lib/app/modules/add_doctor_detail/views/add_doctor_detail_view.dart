@@ -14,6 +14,7 @@ class AddDoctorDetailView extends GetView<AddDoctorDetailController> {
     final node = FocusScope.of(context);
     return Scaffold(
       //backgroundColor: Styles.primaryOrange,
+      //always
       appBar: AppBar(
         title: Text('Add Doctor Information'.tr),
         centerTitle: true,
